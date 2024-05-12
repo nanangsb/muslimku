@@ -1,8 +1,8 @@
 import { useQuery } from "react-query";
 
 const rssPaths = [
-  "https://muslim.or.id/wp-json/wp/v2/,
-  "https://muslimah.or.id/wp-json/wp/v2/",
+  "https://muslim.or.id/rss/,
+  "https://muslimah.or.id/rss/",
 ];
 
 const useNews = () => {
