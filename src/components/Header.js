@@ -12,7 +12,7 @@ const menus = [
     slug: "hadits",
   },
   {
-    name: "Prayer",
+    name: "Waktu Sholat",
     slug: "prayer",
   },
 ];
