@@ -38,17 +38,6 @@ const apps = [
       color: "text-[#E50087]",
     },
   },
-  {
-    name: "Berita",
-    slug: "berita",
-    icon: <IconNewspaper />,
-    description: "Berita islami terkini nasional & internasional.",
-    hover: {
-      text: "Baca Berita Islami",
-      background: "hover:bg-[#E8E2F7]",
-      color: "text-[#802FDE]",
-    },
-  },
 ];
 
 const AppCard = () => {
