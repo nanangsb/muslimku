@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 
 const rssPaths = [
-  "https://muslim.or.id/rss",
+  "",
 ];
 
 const useNews = () => {
@@ -21,7 +21,7 @@ const useNews = () => {
           };
         });
       })
-      .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
+      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
     return refactoredStructure;
   });
 };
