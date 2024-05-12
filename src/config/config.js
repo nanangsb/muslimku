@@ -1,6 +1,6 @@
 const config = {
   site: {
-    name: "Muslimku",
+    name: "AbuSofiya",
     github: "https://github.com/nanangsb/muslimku",
   },
 };
