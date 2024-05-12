@@ -1,9 +1,8 @@
 import { useQuery } from "react-query";
 
 const rssPaths = [
-  "https://api-berita-indonesia.vercel.app/republika/khazanah/",
-  "https://api-berita-indonesia.vercel.app/republika/islam/",
-  "https://api-berita-indonesia.vercel.app/sindonews/kalam/",
+  "https://muslim.or.id/wp-json/wp/v2/,
+  "https://muslimah.or.id/wp-json/wp/v2/",
 ];
 
 const useNews = () => {
