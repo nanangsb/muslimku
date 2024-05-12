@@ -21,7 +21,7 @@ const useNews = () => {
           };
         });
       })
-      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
     return refactoredStructure;
   });
 };
