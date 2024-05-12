@@ -15,10 +15,6 @@ const menus = [
     name: "Prayer",
     slug: "prayer",
   },
-  {
-    name: "Berita",
-    slug: "berita",
-  },
 ];
 
 const HamburgerMenu = () => {
