@@ -51,14 +51,19 @@ const Hadits = () => {
             <IconHaditsCalligraphy />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center w-full">
-            {hadithNarratesQuery.data.map((hadits) => (
-              <HaditsCard
-                key={hadits.slug}
-                title={hadits.name}
-                slug={hadits.slug}
-                total={hadits.total}
-              />
-            ))}
+            <CustomLink
+      href="https://v2.hadismuslim.com/"
+      className="border rounded-md p-4 group hover:border-primary hover:bg-slate-50 transition-colors flex gap-4 items-center w-full"
+    >
+      <div className="flex items-center justify-between w-full">
+        <h2 className="text-lg font-semibold transition-colors group-hover:text-primary">
+          Hadis Bukhori
+        </h2>
+        <span className="text-xs text-gray-600 font-medium">
+          7000 hadits
+        </span>
+      </div>
+    </CustomLink>
           </div>
         </div>
       )}
